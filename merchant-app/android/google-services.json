@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "524825330166",
+    "firebase_url": "https://vplus-8e9c7.firebaseio.com",
+    "project_id": "vplus-8e9c7",
+    "storage_bucket": "vplus-8e9c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524825330166:android:c73bda104b426c2a1007d7",
+        "android_client_info": {
+          "package_name": "com.gisglobal.vplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524825330166-5ckpldmg01sc8f60q0u4n0fsipm683h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplus",
+            "certificate_hash": "9a60fa8d81cada86d377b50093233b57498d4d49"
+          }
+        },
+        {
+          "client_id": "524825330166-ujje09l0j14bjctqq5osp5t8nqaqi8qk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplus",
+            "certificate_hash": "963e17ad1a7b872cecb0bf0b95c960177c2b3d6b"
+          }
+        },
+        {
+          "client_id": "524825330166-vb9p68pcrnifsjssde6krj8f0rie6fdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplus",
+            "certificate_hash": "d56df13d447a4a6c4a4baefa50e43608ac4b5414"
+          }
+        },
+        {
+          "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZmbpntPYPwqA-N8atoeWNVCy3oKSkOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524825330166-0av5ku0gtl413lmtnaf6h3e5n7ogucva.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gisglobal.vplus"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524825330166:android:5675cae1b16cc7731007d7",
+        "android_client_info": {
+          "package_name": "com.gisglobal.vplusmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524825330166-ks0r0r4b5uj91e3d7ttuccg80qjej72m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplusmerchant",
+            "certificate_hash": "9a60fa8d81cada86d377b50093233b57498d4d49"
+          }
+        },
+        {
+          "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZmbpntPYPwqA-N8atoeWNVCy3oKSkOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524825330166-0av5ku0gtl413lmtnaf6h3e5n7ogucva.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gisglobal.vplus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

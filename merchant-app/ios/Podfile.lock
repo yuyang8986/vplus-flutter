@@ -1,0 +1,265 @@
+PODS:
+  - audioplayers (0.0.1):
+    - Flutter
+  - barcode_scan (0.0.1):
+    - Flutter
+    - MTBBarcodeScanner
+    - SwiftProtobuf
+  - bluetooth_thermal_printer (0.0.1):
+    - Flutter
+  - Firebase/Auth (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 7.3.0)
+  - Firebase/CoreOnly (7.3.0):
+    - FirebaseCore (= 7.3.0)
+  - Firebase/Messaging (7.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 7.3.0)
+  - firebase_auth (1.1.1):
+    - Firebase/Auth (= 7.3.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (1.0.4):
+    - Firebase/CoreOnly (= 7.3.0)
+    - Flutter
+  - firebase_messaging (9.1.2):
+    - Firebase/Messaging (= 7.3.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAuth (7.3.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GTMSessionFetcher/Core (~> 1.4)
+  - FirebaseCore (7.3.0):
+    - FirebaseCoreDiagnostics (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.11.0):
+    - GoogleDataTransport (~> 8.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebaseMessaging (7.3.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstanceID (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Reachability (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - Flutter (1.0.0)
+  - flutter_statusbarcolor (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - gallery_saver (0.0.1):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps (< 3.10)
+  - GoogleDataTransport (8.4.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.3.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.3.1)"
+  - GoogleUtilities/Reachability (7.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.3.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - image_cropper (0.0.4):
+    - Flutter
+    - TOCropViewController (~> 2.6.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - MTBBarcodeScanner (5.0.11)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - PromisesObjC (1.2.12)
+  - searchable_dropdown (1.1.1):
+    - Flutter
+  - Sentry (6.1.4):
+    - Sentry/Core (= 6.1.4)
+  - Sentry/Core (6.1.4)
+  - sentry_flutter (0.0.1):
+    - Flutter
+    - Sentry (~> 6.1.4)
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - SwiftProtobuf (1.16.0)
+  - Toast (4.0.0)
+  - TOCropViewController (2.6.0)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - barcode_scan (from `.symlinks/plugins/barcode_scan/ios`)
+  - bluetooth_thermal_printer (from `.symlinks/plugins/bluetooth_thermal_printer/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_statusbarcolor (from `.symlinks/plugins/flutter_statusbarcolor/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - searchable_dropdown (from `.symlinks/plugins/searchable_dropdown/ios`)
+  - sentry_flutter (from `.symlinks/plugins/sentry_flutter/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FMDB
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - MTBBarcodeScanner
+    - nanopb
+    - PromisesObjC
+    - Sentry
+    - SwiftProtobuf
+    - Toast
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
+  barcode_scan:
+    :path: ".symlinks/plugins/barcode_scan/ios"
+  bluetooth_thermal_printer:
+    :path: ".symlinks/plugins/bluetooth_thermal_printer/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_statusbarcolor:
+    :path: ".symlinks/plugins/flutter_statusbarcolor/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  gallery_saver:
+    :path: ".symlinks/plugins/gallery_saver/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  searchable_dropdown:
+    :path: ".symlinks/plugins/searchable_dropdown/ios"
+  sentry_flutter:
+    :path: ".symlinks/plugins/sentry_flutter/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  audioplayers: 455322b54050b30ea4b1af7cd9e9d105f74efa8c
+  barcode_scan: a5c27959edfafaa0c771905bad0b29d6d39e4479
+  bluetooth_thermal_printer: 65b8304b3a1d8c67d466642a28cc2b4984409346
+  Firebase: 26223c695fe322633274198cb19dca8cb7e54416
+  firebase_auth: 5e386e357e92c9a90a9762b154d45d2f8c26591e
+  firebase_core: 4be162b452c4af1f8257dc7a55003ceacec028ac
+  firebase_messaging: 4747d2f670b47152f973067db8504d2c8668902a
+  FirebaseAuth: c224a0cf1afa0949bd5c7bfcf154b4f5ce8ddef2
+  FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
+  FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
+  FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
+  FirebaseInstanceID: ad5135045a498d7775903efd39762d2cdfa1be27
+  FirebaseMessaging: 68d1bcb14880189558a8ae57167abe0b7e417232
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_statusbarcolor: 8afb1071ed8c58be929f1e32b36c629771fd2259
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
+  google_maps_flutter: c7f9c73576de1fbe152a227bfd6e6c4ae8088619
+  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  image_cropper: f1668dd8d2cad2d357955caad15a40547856edcb
+  image_picker: 50e7c7ff960e5f58faa4d1f4af84a771c671bc4a
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  searchable_dropdown: 5058be32fdc5e0481d300ff2087129072e71bd62
+  Sentry: 9d055e2de30a77685e86b219acf02e59b82091fc
+  sentry_flutter: 8b2b2e1c0101ef562106b5d272d3c0c741512c01
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  SwiftProtobuf: 4e16842b83c6fda06b10fac50d73b3f1fce8ab7b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1

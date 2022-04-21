@@ -1,0 +1,55 @@
+name: vplus-merchant-app
+
+on:
+  push:
+    branches: [ develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 'Environment check'
+        uses: actions/checkout@v2
+        
+      - name: 'Setup Java'
+        uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+      
+      - name: 'Setup Flutter stable version'
+        uses: subosito/flutter-action@v1
+        with:
+          channel: 'stable' # or: 'dev' or 'beta'
+        
+      # - name: cleanup
+      #   uses: glassechidna/artifact-cleaner@master
+      #   with:
+      #     minimumAge: 86400 # all artifacts at least one day old in second
+    
+      - run: flutter pub get
+#       - run: flutter test
+      - run: flutter build apk --release
+      
+      - name: 'print GITHUB_RUN_NUMBER'
+        run: echo $GITHUB_RUN_NUMBER
+      
+#       - name: 'Create a file'
+#         run: echo ${{ matrix.node-version }} > ./my_file.txt
+      
+      - name: 'Upload apk build to artifact'
+        uses: actions/upload-artifact@v1
+        with:
+          name: app-release-v${{github.run_number}}
+          path: build/app/outputs/apk/release/app-release.apk
+#           path: ./my_file.txt
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: vplus-merchant-app-deployment
+          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          MSG_MINIMAL: ref,actions url
+          SLACK_TITLE: Post Title
+          SLACK_USERNAME: GithubAction
+          SLACK_WEBHOOK: https://hooks.slack.com/services/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

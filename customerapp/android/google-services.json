@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "524825330166",
+    "firebase_url": "https://vplus-8e9c7.firebaseio.com",
+    "project_id": "vplus-8e9c7",
+    "storage_bucket": "vplus-8e9c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524825330166:android:c7fef5a327084ce41007d7",
+        "android_client_info": {
+          "package_name": "com.gisglobal.vplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524825330166-hecogbrilmsv3pt4e7pmaq5m0pl81mpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplus",
+            "certificate_hash": "9a60fa8d81cada86d377b50093233b57498d4d49"
+          }
+        },
+        {
+          "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZmbpntPYPwqA-N8atoeWNVCy3oKSkOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524825330166-aqfulp2mj4b3ealdb0q8shjak2umbqhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.a.a"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524825330166:android:c73bda104b426c2a1007d7",
+        "android_client_info": {
+          "package_name": "com.gisglobal.vplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524825330166-5ckpldmg01sc8f60q0u4n0fsipm683h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gisglobal.vplus",
+            "certificate_hash": "9a60fa8d81cada86d377b50093233b57498d4d49"
+          }
+        },
+        {
+          "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZmbpntPYPwqA-N8atoeWNVCy3oKSkOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524825330166-8ids51plftoa2ra20rhmuj6rv1cpj5ui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524825330166-aqfulp2mj4b3ealdb0q8shjak2umbqhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.a.a"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

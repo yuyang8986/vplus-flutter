@@ -1,0 +1,15 @@
+# cleanup the artifacts at 3AM daily.
+name: clean artifacts
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # here goes the UTC time.
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cleanup
+        uses: glassechidna/artifact-cleaner@master
+        with:
+          minimumAge: 86400 # all artifacts at least one day old
